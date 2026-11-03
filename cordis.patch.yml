@@ -1,0 +1,8 @@
+# Adds only the Telegram bot row. No official DSH component is replaced.
+#
+# The row is inert until a bot token is configured: with no `token` (or the
+# `DSH_TELEGRAM_BOT_TOKEN` environment variable) the plugin starts, logs how to
+# configure itself, and does not touch the network.
+- insert:
+    - id: telegram-bot
+      name: dsh-connect-telegram

@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.log
+*.bak
+*.old
+.DS_Store
+Thumbs.db
+_scratch/
+media-patch/
+telegram-state.json
+.env
